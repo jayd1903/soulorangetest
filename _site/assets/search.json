@@ -1,0 +1,82 @@
+
+
+[
+  
+  
+    
+    
+  
+  
+  
+  {
+    "title": "About Us",
+    "excerpt": "\n",
+    "content": "FRC Team 7461 is a high school robotics team based in Redmond, Washington. Each year, we compete in the FIRST Robotics Competition, in which teams of 10 to 100 students build a robot to compete in a game\nthat changes yearly. Our team, which includes members from seven different schools, is largely student led, depending off of donations and sponsorships to continue running.\n\nMembership is open to all students in the greater Redmond area. Contact us at team7461@gmail.com with any questions.\n\nMilestones\n\nOffseason 2019\n\nIn this season, we had X robot and Y accomplishments.\n\nBuild season 2019\n\nIn this season, we had X robot and Y accomplishments. We went to worlds, and will return again to win in 2021.\n\nOff season 2020\n\nIn this season, we had X robot and Y accomplishments. The team grew to Z people, etc.\n\nBuild season 2020\n\nIn this season, we made Iso and cried.\n",
+    "url": "/about/"
+  },
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "Redirecting...",
+    "excerpt": "\n",
+    "content": "Click here if you are not redirected.\n\n",
+    "url": "/codecampsignup/"
+  },
+  
+  {
+    "title": "Elements",
+    "excerpt": "A demo of Markdown and HTML includes\n",
+    "content": "Heading 1\n\nHeading 2\n\nHeading 3\n\nHeading 4\n\nHeading 5\n\nHeading 6\n\nA small element\n\nA link\n\nLorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.\n\nDuis aute irure dolor in A link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.\n\n\n  An item\n  An item\n  An item\n  An item\n  An item\n\n\n\n  Item one\n  Item two\n  Item three\n  Item four\n  Item five\n\n\n\n  A simple blockquote\n\n\nSome HTML…\n\n&lt;blockquote cite=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;\n  &lt;p&gt;You planning a vacation, Mr. Sullivan?&lt;/p&gt;\n  &lt;footer&gt;\n    &lt;a href=\"http://www.imdb.com/title/tt0284978/quotes/qt1375101\"&gt;Sunways Security Guard&lt;/a&gt;\n  &lt;/footer&gt;\n&lt;/blockquote&gt;\n\n\n…CSS…\n\nblockquote {\n  text-align: center;\n  font-weight: bold;\n}\nblockquote footer {\n  font-size: .8rem;\n}\n\n\n…and JavaScript\n\nconst blockquote = document.querySelector(\"blockquote\")\nconst bolden = (keyString, string) =&gt;\n  string.replace(new RegExp(keyString, 'g'), '&lt;strong&gt;'+keyString+'&lt;/strong&gt;')\n\nblockquote.innerHTML = bolden(\"Mr. Sullivan\", blockquote.innerHTML)\n\n\nSingle line of code\n\nHTML Includes\n\nContact form\n\n\n  \n    Contact\n    Name: *\n    \n\n    Email Address: *\n    \n\n    Message: *\n    \n\n    \n    \n    * indicates a required field\n\n    \n      \n      \n      \n    \n  \n\n\n\n\nPlease enable JavaScript to use the form.\n\n{% include site-form.html %}\n\n\nDemo map embed\n\n\n\n{% include map.html id=\"XXXXXX\" title=\"Coffee shop map\" %}\n\n\nButton include\n\nA button\n\nA button with icon  twitter\n\n\n{% include button.html text=\"A button\" link=\"https://david.darn.es\" %}\n{% include button.html text=\"A button with icon\" link=\"https://twitter.com/daviddarnes\" icon=\"twitter\" %}\n\n\nIcon include\n\ntwitter\ntwitter\n\n\n{% include icon.html id=\"twitter\" title=\"twitter\" %}\n[{% include icon.html id=\"linkedin\" title=\"twitter\" %}](https://www.linkedin.com/in/daviddarnes)\n\n\nVideo include\n\n\n  \n\n\n{% include video.html id=\"zrkcGL5H3MU\" title=\"Siteleaf tutorial video\" %}\n\n\nImage includes\n\n\n  \n  Image with caption\n\n\n\n  \n  Right aligned image\n\n\n\n  \n  Left aligned image\n\n\n\n  \n  \n\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Image with caption\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Right aligned image\" position=\"right\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/600/800?image=894\" caption=\"Left aligned image\" position=\"left\" width=\"300\" height=\"800\" %}\n\n{% include figure.html image=\"https://picsum.photos/1600/800?image=894\" alt=\"Image with just alt text\" %}\n\n",
+    "url": "/elements/"
+  },
+  
+  {
+    "title": "Home",
+    "excerpt": "\n",
+    "content": "\n  \n    \n    \n    \n    \n  \n  \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n  \n    \n    Previous\n  \n  \n    \n    Next\n  \n\n\nFRC Team 7461 is a high school robotics team based in Redmond, Washington. Each year, we compete in the FIRST Robotics Competition, in which teams of 10 to 100 students build a robot to compete in a game\nthat changes each year. Our team, which includes members from seven different schools, is largely student led, depending off of donations and sponsorships to continue running.\n\nMembership is open to all students in the greater Redmond area. Contact us here with any questions.\n\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Redirecting...",
+    "excerpt": "\n",
+    "content": "Click here if you are not redirected.\n\n",
+    "url": "/infomeeting/"
+  },
+  
+  {
+    "title": "Programming Onboarding",
+    "excerpt": "\n",
+    "content": "Kotlin resources\n\nThis year, the programming subteam will be making the switch from Java to Kotlin. This paper explains the benefits of this move. If you’re already proficient in Java, Python, or any similar language, the best place to get acquanited with Kotlin is from the Kotlin Koans.\n\nIf you’re a beginner, most Kotlin tutorials you’ll find online are either designed for people who already know Java, or are looking to do Android development. The best resource for this situation is Head First Kotlin. Here is a pretty good Youtube tutorial that you can follow along with as well.\n\nBefore you start the rest of your prog training, you’ll need to demonstrate proficiency good at Kotlin. To make sure everyone is on the same page during programming discussions, write a program that meets the following requirements:\n\n\n  Process Strings from console input\n  Create an abstract class called Item, and  subclasses that extend it\n  Hold an inventory of Item objects, that the user can manipulate and view\n  Must use a Kotlin “when” statment (similar to a switch statement)\n  Must have an inline class definition (that you use somewhere)\n  Must use a for-each loop\n  Must appropriately use val and var\n  Must use a filter statment\n  Must follow the Kotlin Style Guide\n\n\nAlthough the official development environment is VSCode, you should use IntelliJ for most of your development.\n\nGithub Requirements\n\nFor collaboration, we use Github to share code. When you first start learning Git and Github, it’s important to know the difference between them:\n\n  Git is a free and open source version control system that allows you to work in teams and keep track of your code history.\n  GitHub is a cloud service owned by Microsoft that lets you manage your Git repositories for free. There are other online services similar to Github, but Github is the most popular.\n\n\nHere is a slide deck that explains the basics of Git.\n\nAfter you understand general Gir concepts, install GitHub Desktop and read some of the documentation here.\n\nThen, to verify that your Git knowlegde:\n\n  Clone the Sushi Squad onboarding repository from https://github.com/SushiSquad7461/Kotlin-onboarding\n  Put your Kotlin project into the repo, and give it a cool name\n  Add, commit, and push your changes to a new branch\n  Make a pull request so I can look over your project and verify that it meets the requirements.\n\n\nWPILib\nWPILib is the library that lets you control the robot with Kotlin. Knowledge of WPILib features and how to use them is essential for the programming subteam. You can access the documentation is here.\n\nLectures to Watch\nHere is a short video that’ll help you understand PID control. WPILib can do PID for you, but understanding how it works will allow you to better tune your constants and debug issues.\n\nThis explains trajectory tracking using WPILib.\n\nThis explains a robot project’s general structure, and although all the info is in the WPILib docs, this is just another way to understand how everything fits together.\n",
+    "url": "/programming-onboarding/"
+  },
+  
+  {
+    "title": "Resources",
+    "excerpt": "\n",
+    "content": "Contact us at team7461@gmail.com with any questions, sponsorship inquiries, or cool sushi recipies.\n\nView our Github! github\n\n\nSafety manual\n\n2019 Documentation\n\nKitbot on Steroids - 2020 Edition\n\nInstagram\n",
+    "url": "/resources/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": "{% include site-search.html %}\n",
+    "url": "/search/"
+  },
+  
+  {
+    "title": "Sponsors",
+    "excerpt": "\n",
+    "content": "\n\nWe are incredibly grateful to the following organizations that keep our team running. If you would like to become a sponsor, please contact us here.\n\nTerabyte Sponsors\n\n    \n    \n        {% include figure.html image=\"/assets/sponsors/BLR.png\" width=\"300\" height=\"300\" %}\n    \n    \n        {% include figure.html image=\"/assets/sponsors/microsoft.png\"  width=\"300\" height=\"300\" %}\n    \n    \n    \n        \n            {% include figure.html image=\"/assets/sponsors/copperforge.png\"  width=\"300\" height=\"300\" %}\n        \n        \n            {% include figure.html image=\"/assets/sponsors/firstwa.png\"  width=\"300\" height=\"300\" %}\n        \n    \n    \n        \n            {% include figure.html image=\"/assets/sponsors/onshape.png\"  width=\"300\" height=\"300\" %}\n        \n    \n\n\nGigabyte Sponsors\n\n    \n        \n         {% include figure.html image=\"/assets/sponsors/Bluetooth.jpg\"  width=\"300\" height=\"300\" %}\n         \n    \n\n\nMegabyte Sponsors\n\n    \n        \n         {% include figure.html image=\"/assets/sponsors/first-tech.png\"  width=\"300\" height=\"300\" %}\n        \n        \n         {% include figure.html image=\"/assets/sponsors/playlive.png\"  width=\"300\" height=\"300\" %}\n        \n    \n    \n        \n            Aurora Energy Consulting\n        \n        \n            Tuan and Tuyet Team\n        \n    \n\n",
+    "url": "/sponsors/"
+  }
+  
+]
+
